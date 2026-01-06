@@ -1,87 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Surjo Tarun – SSC Batch 2k25</title>
-  <meta name="description" content="Surjo Tarun is the official identity of SSC Batch–2k25 from Provati Secondary School, Bangladesh.">
-  <meta name="keywords" content="Surjo Tarun, SSC Batch 2k25, Provati Secondary School, Student Batch BD">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surjo Tarun</title>
 
-  <style>
-    .logo{
-  width:120px;
-  border-radius:50%;
-  margin-bottom:15px;
-}
-
-    body{
-      margin:0;
-      font-family: Arial, Helvetica, sans-serif;
-      background:#0b1d2a;
-      color:#ffffff;
-      text-align:center;
-    }
-    header{
-      padding:60px 20px;
-      background:linear-gradient(135deg,#f9b233,#ffdd88);
-      color:#000;
-    }
-    header h1{
-      font-size:48px;
-      margin:0;
-    }
-    header p{
-      font-size:18px;
-      margin-top:10px;
-    }
-    section{
-      padding:50px 20px;
-      max-width:900px;
-      margin:auto;
-    }
-    h2{
-      color:#f9b233;
-    }
-    footer{
-      background:#06131d;
-      padding:20px;
-      font-size:14px;
-      color:#aaa;
-    }
-    .hashtags{
-      margin-top:20px;
-      color:#f9b233;
-      font-size:14px;
-    }
-  </style>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <strong>SURJO TARUN</strong>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <div class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<!-- ===== HEADER ===== -->
 <header>
-  <img src="logo.png" alt="Surjo Tarun Official Logo" class="logo">
-  <h1>SURJO TARUN </h1>
+  <img src="images/logo.png" class="logo">
+  <h1>SURJO TARUN</h1>
   <p>SSC Batch–2k25 | Provati Secondary School</p>
 </header>
 
+<!-- ===== SLIDER ===== -->
 <section>
-  <h2>About Surjo Tarun</h2>
-  <p>
-    Surjo Tarun is the official identity of SSC Batch–2k25 from
-    Provati Secondary School, Bangladesh.  
-    It represents unity, youth power, friendship, memories, and
-    the journey towards a bright future.
-  </p>
-
-  <div class="hashtags">
-    #SurjoTarun #Surjo_Tarun #SurjoTarun2k25
+  <h2>Memories</h2>
+  <div class="slider">
+    <img id="slide" src="images/slide1.jpg">
   </div>
 </section>
 
-<footer>
-  © 2025 Surjo Tarun | All Rights Reserved
-</footer>
-
+<!-- JS LINK -->
+<script src="js/script.js"></script>
 </body>
 </html>
-
